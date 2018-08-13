@@ -1,0 +1,26 @@
+{
+  "name": "hipstermaps-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shigawire/hipstermaps-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shigawire/hipstermaps-lambda/issues"
+  },
+  "homepage": "https://github.com/Shigawire/hipstermaps-lambda#readme",
+  "dependencies": {
+    "@mapbox/abaculus": "^3.0.0",
+    "aws-sdk": "^2.291.0",
+    "axios": "^0.18.0",
+    "sharp": "^0.20.5",
+    "dotenv": "^6.0.0"
+  }
+}
